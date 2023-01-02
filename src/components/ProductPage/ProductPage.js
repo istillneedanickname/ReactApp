@@ -1,57 +1,68 @@
-import React from 'react';
+import React, {useState,useEffect} from 'react';
+import {Routes, Route, Link, useNavigate,useParams} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import styles from './ProductPage.module.scss';
+import data from "../../api/data.json";
 
-const ProductPage = () => (
+const ProductPage = () => {
+  const navigate = useNavigate ()
+  const redirect = (param) =>{
+    navigate (`/products/${param}`)
+  }
+
+  return(
   <div className={styles.ProductPage}>
     <div class="container">
 
+
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-
-  <div class="col">
-    <div class="card shadow-sm">
-      <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-      <div class="card-body">
-        <p class="card-text">pan Tefal</p>
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group">
+{/* {
+          data.classes.map(category => {
+            return(
+              <div class="col" key={category.name}
+              onClick={() => redirect(category.name)} >
+          <div class="card shadow-sm bg-dark" style={{width:320}}>
+            <img src={category.image} alt="" />
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+              <p class="card-text text-white">{category.name}</p>
+                <div class="btn-group">
+                </div>
+              </div>  
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card shadow-sm">
-      <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            )
+          })
+        } */}
 
-      <div class="card-body">
-        <p class="card-text">pan Bristol</p>
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group">
+{
+          data.data.map(category => {
+            return(
+              <div class="col" key={category.name}
+              onClick={() => redirect(category.name)} >
+          <div class="card shadow-sm bg-dark" style={{width:320, height:360}}>
+            <img src={category.image} alt="" />
+            <div class="card-body">
+              <div>
+              <h6 class="card-text text-white text-center">{category.name}</h6>
+              <h5 class="card-text text-white">{category.price} €</h5>
+              <p class="card-text text-muted">Scale: {category.scale}</p>
+                <div class="btn-group">
+                </div>
+              </div>  
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card shadow-sm">
-      <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-      <div class="card-body">
-        <p class="card-text">pan Ardesto</p>
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+            )
+          })
+        }
 </div>
 </div>
   </div>
-);
+  )
+};
 
 ProductPage.propTypes = {};
 
