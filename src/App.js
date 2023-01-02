@@ -16,7 +16,7 @@ import ShipsPage from './components/ShipsPage/ShipsPage';
 import CarsPage from './components/CarsPage/CarsPage';
 import Catalog from './components/Catalog/Catalog';
 import CatalogItem from './components/CatalogItem/CatalogItem';
-import ModelPage from './ModelPage/ModelPage';
+import ModelPage from './components/ModelPage/ModelPage';
 
 
 function App() {
@@ -26,10 +26,10 @@ function App() {
 
 <Routes>
   <Route path="/home" element={<HomePage/>}/>
-  <Route path="/modelpage" element={<ModelPage/>}/>
+  <Route path="/product" element={< ModelPage/>}/>
   <Route path="/products" element={<ProductPage/>}/>
   <Route path="/about" element={<About/>}/>
-  <Route path="/login" element={<Login/>}/>
+  <Route path="/login" element={<Login/>}/> 
   <Route path="/signUp" element={<SingUp/>}/>
   <Route path='/catalog' element={<Catalog />} />
   <Route path="/catalog/:id" element={<ProductPage/>} />

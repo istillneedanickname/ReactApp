@@ -122,36 +122,6 @@
       "name": "Cars",
       "image": "https://content2.rozetka.com.ua/goods/images/big/248602439.jpg"
     }
-  ],
-  "relatedProd":[
-    {
-      "name":"Cutty Shark",
-      "type":"ships",
-      "price":"92,99",
-      "scale":"1:96",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/05422_kmw_cutty_sark.jpg"
-    },
-    {
-      "name":"Battleship Bismarck",
-      "type":"ships",
-      "price":"92,99",
-      "scale":"1:225",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/05040_bismarck_01.jpg"
-    },
-    {
-      "name":"Airbus A400M 'Luftwaffe'",
-      "type":"aircraft",
-      "price":"69,99",
-      "scale":"1:96",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/03822_airbus_a400m_atlas_raf_01.jpg"
-    },
-    {
-      "name":"Audi R8",
-      "type":"cars",
-      "price":"28,99",
-      "scale":"1:24",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/07057kopie.jpg"
-    }
   ]
 }
 

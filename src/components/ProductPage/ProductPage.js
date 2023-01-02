@@ -40,8 +40,8 @@ const ProductPage = () => {
 {
           data.data.map(category => {
             return(
-              <div class="col" key={category.name}
-              onClick={() => redirect(category.name)} >
+              <div class="col" key={category.id}
+              onClick={() => redirect(category.id)} >
           <div class="card shadow-sm bg-dark" style={{width:320, height:360}}>
             <img src={category.image} alt="" />
             <div class="card-body">
@@ -56,7 +56,7 @@ const ProductPage = () => {
           </div>
         </div>
             )
-          })
+          })    
         }
 </div>
 </div>
