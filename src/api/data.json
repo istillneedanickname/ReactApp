@@ -1,99 +1,99 @@
 {
-  "data":[
+  "data": [
     {
-      "id":1,
-      "name":"Cutty Shark",
-      "type":"ships",
-      "price":"92,99",
-      "scale":"1:96",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/05422_kmw_cutty_sark.jpg"
+      "id": 1,
+      "name": "Cutty Shark",
+      "type": "ships",
+      "price": "92,99",
+      "scale": "1:96",
+      "image": "https://www.revell.de/out/pictures/generated/product/1/540_540_88/05422_kmw_cutty_sark.jpg"
     },
     {
-      "id":2,
-      "name":"Audi R8",
-      "type":"cars",
-      "price":"28,99",
-      "scale":"1:24",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/07057kopie.jpg"
+      "id": 2,
+      "name": "Audi R8",
+      "type": "cars",
+      "price": "28,99",
+      "scale": "1:24",
+      "image": "https://www.revell.de/out/pictures/generated/product/1/540_540_88/07057kopie.jpg"
     },
     {
-      "id":3,
-      "name":"HMS Victory",
-      "type":"ships",
-      "price":"36,99",
-      "scale":"1:225",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/65408_model_set_hms_victory_01.jpg"
+      "id": 3,
+      "name": "HMS Victory",
+      "type": "ships",
+      "price": "36,99",
+      "scale": "1:225",
+      "image": "https://www.revell.de/out/pictures/generated/product/1/540_540_88/65408_model_set_hms_victory_01.jpg"
     },
     {
-      "id":4,
-      "name":"VW T3",
-      "type":"cars",
-      "price":"34,99",
-      "scale":"1:24",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/07706_vw_t3_bus_01.jpg"
+      "id": 4,
+      "name": "VW T3",
+      "type": "cars",
+      "price": "34,99",
+      "scale": "1:24",
+      "image": "https://www.revell.de/out/pictures/generated/product/1/540_540_88/07706_vw_t3_bus_01.jpg"
     },
     {
-      "id":5,
-      "name":"Gorch Fock",
-      "type":"ships",
-      "price":"19,99",
-      "scale":"1:350",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/05432_gorch_fock_01.jpg"
+      "id": 5,
+      "name": "Gorch Fock",
+      "type": "ships",
+      "price": "19,99",
+      "scale": "1:350",
+      "image": "https://www.revell.de/out/pictures/generated/product/1/540_540_88/05432_gorch_fock_01.jpg"
     },
     {
-      "id":6,
-      "name":"Airbus A400M 'Luftwaffe'",
-      "type":"aircraft",
-      "price":"69,99",
-      "scale":"1:96",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/03822_airbus_a400m_atlas_raf_01.jpg"
+      "id": 6,
+      "name": "Airbus A400M 'Luftwaffe'",
+      "type": "aircraft",
+      "price": "69,99",
+      "scale": "1:96",
+      "image": "https://www.revell.de/out/pictures/generated/product/1/540_540_88/03822_airbus_a400m_atlas_raf_01.jpg"
     },
     {
-      "id":7,
-      "name":"Jackson Storm Disney Car",
-      "type":"cars",
-      "price":"34,99",
-      "scale":"1:24",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/00921_jackson_storm_disney_cars_light_u_sound_01.jpg"
+      "id": 7,
+      "name": "Jackson Storm Disney Car",
+      "type": "cars",
+      "price": "34,99",
+      "scale": "1:24",
+      "image": "https://www.revell.de/out/pictures/generated/product/1/540_540_88/00921_jackson_storm_disney_cars_light_u_sound_01.jpg"
     },
     {
-      "id":8,
-      "name":"Work Station",
-      "price":"32,49",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/39085_work_station_01.jpg"
+      "id": 8,
+      "name": "Work Station",
+      "price": "32,49",
+      "image": "https://www.revell.de/out/pictures/generated/product/1/540_540_88/39085_work_station_01.jpg"
     },
     {
-      "id":9,
-      "name":"Harry Potter Hogwarts™ Castle",
-      "price":"49,99",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/00311_harry_potter_hogwarts_castle_01.jpg"
+      "id": 9,
+      "name": "Harry Potter Hogwarts™ Castle",
+      "price": "49,99",
+      "image": "https://www.revell.de/out/pictures/generated/product/1/540_540_88/00311_harry_potter_hogwarts_castle_01.jpg"
     },
     {
-      "id":10,
-      "name":"Geschenk Set Jägermeister Motor Sport 50th",
-      "type":"cars",
-      "price":"38,99",
-      "scale":"1:24",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/05669_jaegermeister_motor_sport_50th_anniversary_01(1).jpg"
+      "id": 10,
+      "name": "Geschenk Set Jägermeister Motor Sport 50th",
+      "type": "cars",
+      "price": "38,99",
+      "scale": "1:24",
+      "image": "https://www.revell.de/out/pictures/generated/product/1/540_540_88/05669_jaegermeister_motor_sport_50th_anniversary_01(1).jpg"
     },
     {
-      "id":11,
-      "name":"Battleship Bismarck",
-      "type":"ships",
-      "price":"92,99",
-      "scale":"1:225",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/05040_bismarck_01.jpg"
+      "id": 11,
+      "name": "Battleship Bismarck",
+      "type": "ships",
+      "price": "92,99",
+      "scale": "1:225",
+      "image": "https://www.revell.de/out/pictures/generated/product/1/540_540_88/05040_bismarck_01.jpg"
     },
     {
-      "id":12,
-      "name":"Antonov AN-225 Mrija",
-      "type":"aircraft",
-      "price":"125,00",
-      "scale":"1:350",
-      "image":"https://www.revell.de/out/pictures/generated/product/1/540_540_88/04958_antonov_an_225_mrija_01.jpg"
+      "id": 12,
+      "name": "Antonov AN-225 Mrija",
+      "type": "aircraft",
+      "price": "125,00",
+      "scale": "1:350",
+      "image": "https://www.revell.de/out/pictures/generated/product/1/540_540_88/04958_antonov_an_225_mrija_01.jpg"
     }
   ],
-  "categories":[
+  "categories": [
     {
       "name": "aircraft",
       "image": "https://www.revell.de/out/pictures/ddmedia/01_aircraft.jpg"
@@ -106,10 +106,8 @@
       "name": "cars",
       "image": "https://www.revell.de/out/pictures/ddmedia/03_cars.jpg"
     }
-    
-
   ],
-  "classes":[
+  "classes": [
     {
       "name": "Aircraft",
       "image": "https://content.rozetka.com.ua/goods/images/original/236794714.jpg"
@@ -124,4 +122,3 @@
     }
   ]
 }
-

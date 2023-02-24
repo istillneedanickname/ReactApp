@@ -5,10 +5,6 @@ import styles from './ProductPage.module.scss';
 import data from "../../api/data.json";
 
 const ProductPage = () => {
-  const navigate = useNavigate ()
-  const redirect = (param) =>{
-    navigate (`/products/${param}`)
-  }
 
   return(
   <div className={styles.ProductPage}>
@@ -40,8 +36,7 @@ const ProductPage = () => {
 {
           data.data.map(category => {
             return(
-              <div class="col" key={category.id}
-              onClick={() => redirect(category.id)} >
+              <div class="col" key={category.id}>
           <div class="card shadow-sm bg-dark" style={{width:320, height:360}}>
             <img src={category.image} alt="" />
             <div class="card-body">
